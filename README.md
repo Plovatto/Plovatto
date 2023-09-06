@@ -17,11 +17,7 @@
 
 <br clear="both">
 
-<img align="left" height="120" src="https://media.tenor.com/GfSX-u7VGM4AAAAC/coding.gif"  />
-
-###
-
-<div align="right">
+<div align="center">
   <a href="https://www.instagram.com/panlovatto7/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
   </a>
@@ -35,7 +31,17 @@
 
 ###
 
-<div align="right">
+<br clear="both">
+
+<div align="center">
+  <img height="120" src="https://media.tenor.com/GfSX-u7VGM4AAAAC/coding.gif"  />
+</div>
+
+###
+
+<br clear="both">
+
+<div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
@@ -64,7 +70,7 @@
 <br clear="both">
 
 
-
+###
 
 <p align="left"></p>
 
