@@ -9,7 +9,7 @@
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Plovatto&locale=pt-br&hide_title=false&layout=compact&card_width=320&langs_count=7&theme=radical&hide_border=true" height="152" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Plovatto&locale=pt-br&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=radical&hide_border=true" height="152" alt="languages graph"  />
   <img src="https://streak-stats.demolab.com?user=Plovatto&locale=pt-br&mode=weekly&theme=radical&hide_border=true&border_radius=10" height="150" alt="streak graph"  />
 </div>
 
@@ -64,7 +64,7 @@
 <br clear="both">
 
 
-###
+
 
 <p align="left"></p>
 
