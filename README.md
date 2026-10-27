@@ -1,80 +1,30 @@
-<h3 align="center">Pandora Becker Lovatto</h3>
-
-###
-
-<br clear="both">
-
-<p align="center">"Quem pensa em fracassar, já fracassou mesmo antes de tentar."</p>
-
-###
-
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Plovatto&locale=pt-br&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=radical&hide_border=true" height="152" alt="languages graph"  />
-  <img src="https://streak-stats.demolab.com?user=Plovatto&locale=pt-br&mode=weekly&theme=radical&hide_border=true&border_radius=10" height="150" alt="streak graph"  />
+
+<a href="https://plovatto.github.io/portfolio/">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3200&pause=1000&color=FE428E&center=true&vCenter=true&width=620&height=50&lines=Pandora+Becker+Lovatto;Desenvolvedora+full+stack;React+%C2%B7+Node.js+%C2%B7+TypeScript+%C2%B7+MySQL" alt="Pandora Becker Lovatto, desenvolvedora full stack" />
+</a>
+
+<p><em>"Quem pensa em fracassar, já fracassou mesmo antes de tentar."</em></p>
+
 </div>
 
-###
-
-<br clear="both">
+<br />
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="30" alt="figma logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="java logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="30" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="30" alt="mongodb logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="30" alt="vuejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuetify/vuetify-original.svg" height="30" alt="vuetify logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="30" alt="bootstrap logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="30" alt="express logo"  />
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=Plovatto&locale=pt-br&layout=compact&card_width=320&langs_count=6&theme=radical&hide_border=true&border_radius=10" /><img src="https://github-readme-stats.vercel.app/api/top-langs?username=Plovatto&locale=pt-br&layout=compact&card_width=320&langs_count=6&hide_border=true&border_radius=10&bg_color=f6f8fa&title_color=fe428e&text_color=1f2328" width="289" alt="Linguagens mais usadas" /></picture><img width="16" /><picture><source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Plovatto&locale=pt-br&mode=weekly&theme=radical&hide_border=true&border_radius=10" /><img src="https://streak-stats.demolab.com?user=Plovatto&locale=pt-br&mode=weekly&hide_border=true&border_radius=10&background=f6f8fa&ring=fe428e&fire=fe428e&currStreakNum=1f2328&sideNums=fe428e&currStreakLabel=fe428e&sideLabels=59636e&dates=59636e&stroke=d1d9e0" width="379" alt="Sequência de contribuições" /></picture>
+
+<a href="https://plovatto.github.io/portfolio/"><img src="assets/portfolio.svg" width="684" alt="Portfólio de Pandora Lovatto: projetos, stack e trajetória em uma placa de circuito interativa" /></a>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/icons-dark.svg" /><img src="assets/icons-light.svg" width="684" alt="Tecnologias: Figma, Git, HTML5, JavaScript, Node.js, React, MySQL, CSS3, Vuetify, TypeScript, Bootstrap, Express" /></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Plovatto/Plovatto/output/panda-dark.svg" /><img src="https://raw.githubusercontent.com/Plovatto/Plovatto/output/panda.svg" width="684" alt="Panda correndo pelo gráfico de contribuições e comendo os commits" /></picture>
+
 </div>
-
-###
-
-<br clear="both">
 
 <div align="center">
-  <img height="120" src="https://media.tenor.com/GfSX-u7VGM4AAAAC/coding.gif"  />
+  <a href="https://plovatto.github.io/portfolio/"><img src="assets/badge-portfolio.svg" height="35" alt="Portfólio" /></a>
+  <a href="https://www.linkedin.com/in/pandora-becker-lovatto-877169290/"><img src="assets/badge-linkedin.svg" height="35" alt="LinkedIn" /></a>
+  <a href="mailto:pandorabecker3@gmail.com"><img src="assets/badge-gmail.svg" height="35" alt="Gmail" /></a>
+  <a href="https://www.instagram.com/panlovatto/"><img src="assets/badge-instagram.svg" height="35" alt="Instagram" /></a>
 </div>
-
-###
-
-<br clear="both">
-
-<div align="center">
-  <a href="https://www.instagram.com/panlovatto7/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
-  </a>
-  <a href="mailto:pandora-blovatto@educar.rs.gov.br" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-  </a>
-  <a href="https://www.linkedin.com/in/pandora-becker-lovatto-877169290/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  </a>
-</div>
-
-###
-
-<p align="left"></p>
-
-###

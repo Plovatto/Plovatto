@@ -1,0 +1,51 @@
+name: Panda das contribuições
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/**
+      - .github/workflows/panda.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: panda
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Buscar contribuições
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api graphql -f query='query($login: String!) { user(login: $login) { contributionsCollection { contributionCalendar { weeks { contributionDays { date weekday contributionLevel } } } } } }' \
+            -f login='${{ github.repository_owner }}' \
+            --jq '[.data.user.contributionsCollection.contributionCalendar.weeks | to_entries[] | .key as $x | .value.contributionDays[] | {x: $x, y: .weekday, date: .date, level: ({"NONE": 0, "FIRST_QUARTILE": 1, "SECOND_QUARTILE": 2, "THIRD_QUARTILE": 3, "FOURTH_QUARTILE": 4}[.contributionLevel])}]' \
+            > contributions.json
+
+      - name: Gerar panda
+        run: |
+          node scripts/panda.mjs contributions.json dist
+          node scripts/panda-cartoon.mjs dist
+
+      - name: Publicar no branch output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

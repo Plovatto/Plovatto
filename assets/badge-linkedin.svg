@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91" height="28" role="img" aria-label="LINKEDIN"><title>LINKEDIN</title>
+<style>
+.in{animation:in .6s cubic-bezier(0.23,1,0.32,1) 120ms backwards}
+.shine{animation:shine 6.1s cubic-bezier(0.37,0,0.63,1) 2.5s infinite}
+.logo{transform-box:fill-box;transform-origin:50% 50%;animation:wiggle 6.1s cubic-bezier(0.37,0,0.63,1) 2.5s infinite}
+@keyframes in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes shine{0%,70%{transform:translateX(0)}92%,100%{transform:translateX(181px)}}
+@keyframes wiggle{0%,74%,94%,100%{transform:rotate(0)}79%{transform:rotate(-14deg) scale(1.1)}84%{transform:rotate(10deg) scale(1.1)}89%{transform:rotate(-4deg)}}
+@media (prefers-reduced-motion: reduce){.in,.shine,.logo{animation:none}}
+</style>
+<defs><linearGradient id="sg1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".45"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><clipPath id="bc1"><rect width="91" height="28"/></clipPath></defs>
+<g class="in"><g shape-rendering="crispEdges"><rect width="91" height="28" fill="#0077b5"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100"><text transform="scale(.1)" x="455" y="175" textLength="670" font-weight="bold">LINKEDIN</text></g><g clip-path="url(#bc1)"><g transform="skewX(-20)"><rect class="shine" x="-40" y="-2" width="24" height="32" fill="url(#sg1)"/></g></g></g></svg>

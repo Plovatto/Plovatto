@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="87.25" height="28" role="img" aria-label="GMAIL"><title>GMAIL</title>
+<style>
+.in{animation:in .6s cubic-bezier(0.23,1,0.32,1) 240ms backwards}
+.shine{animation:shine 5.7s cubic-bezier(0.37,0,0.63,1) 3.2s infinite}
+.logo{transform-box:fill-box;transform-origin:50% 50%;animation:wiggle 5.7s cubic-bezier(0.37,0,0.63,1) 3.2s infinite}
+@keyframes in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes shine{0%,70%{transform:translateX(0)}92%,100%{transform:translateX(178px)}}
+@keyframes wiggle{0%,74%,94%,100%{transform:rotate(0)}79%{transform:rotate(-14deg) scale(1.1)}84%{transform:rotate(10deg) scale(1.1)}89%{transform:rotate(-4deg)}}
+@media (prefers-reduced-motion: reduce){.in,.shine,.logo{animation:none}}
+</style>
+<defs><linearGradient id="sg2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".45"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><clipPath id="bc2"><rect width="87.25" height="28"/></clipPath></defs>
+<g class="in"><g shape-rendering="crispEdges"><rect width="87.25" height="28" fill="#d14836"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100"><image class="logo" x="9" y="7" width="14" height="14" href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJ3aGl0ZSIgcm9sZT0iaW1nIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPkdtYWlsPC90aXRsZT48cGF0aCBkPSJNMjQgNS40NTd2MTMuOTA5YzAgLjkwNC0uNzMyIDEuNjM2LTEuNjM2IDEuNjM2aC0zLjgxOVYxMS43M0wxMiAxNi42NGwtNi41NDUtNC45MXY5LjI3M0gxLjYzNkExLjYzNiAxLjYzNiAwIDAgMSAwIDE5LjM2NlY1LjQ1N2MwLTIuMDIzIDIuMzA5LTMuMTc4IDMuOTI3LTEuOTY0TDUuNDU1IDQuNjQgMTIgOS41NDhsNi41NDUtNC45MSAxLjUyOC0xLjE0NUMyMS42OSAyLjI4IDI0IDMuNDM0IDI0IDUuNDU3eiIvPjwvc3ZnPg=="/><text transform="scale(.1)" x="536.25" y="175" textLength="432.5" font-weight="bold">GMAIL</text></g><g clip-path="url(#bc2)"><g transform="skewX(-20)"><rect class="shine" x="-40" y="-2" width="24" height="32" fill="url(#sg2)"/></g></g></g></svg>
