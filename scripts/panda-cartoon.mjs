@@ -1133,10 +1133,10 @@ function idleCss(t) {
 @keyframes sniff{0%,78%,92%,100%{transform:scale(1)}81%{transform:scale(1.18,.86)}84%{transform:scale(.94,1.06)}87%{transform:scale(1.14,.9)}90%{transform:scale(.98,1.02)}}
 @keyframes wag{0%,68%,90%,100%{transform:rotate(0)}72%{transform:rotate(22deg)}76%{transform:rotate(-16deg)}80%{transform:rotate(12deg)}84%{transform:rotate(-6deg)}}
 @keyframes shadow{from{transform:scale(1,1)}to{transform:scale(1.03,1)}}
-.bfly{animation:bfly 31.7s ${SINE} infinite}
+.bfly{animation:bfly 35.5s ${SINE} 1.2s infinite backwards}
 .bfly-bob{animation:bfly-bob 1.37s ${SINE} infinite alternate}
 .flap{animation:flap .19s ${SINE} infinite alternate}
-@keyframes bfly{0%{transform:translate(-40px,-6px) rotate(8deg)}9%{transform:translate(40px,-12px) rotate(-6deg)}17%{transform:translate(110px,-3px) rotate(10deg)}25%{transform:translate(175px,-11px) rotate(-8deg)}32%{transform:translate(236px,0px) rotate(6deg)}40%{transform:translate(300px,-9px) rotate(-10deg)}48%{transform:translate(372px,-4px) rotate(4deg)}55%,100%{transform:translate(470px,-10px) rotate(0)}}
+@keyframes bfly{0%{transform:translate(160px,-7px) rotate(6deg)}4.225%{transform:translate(240px,-12px) rotate(-8deg)}8.451%{transform:translate(300px,-5px) rotate(8deg)}12.676%{transform:translate(360px,-11px) rotate(-6deg)}16.338%{transform:translate(340px,-6px) rotate(6deg)}18.592%{transform:translate(326px,-8px) rotate(-4deg)}19.437%{transform:translate(318px,-24px) rotate(0deg)}63.662%{transform:translate(319px,-24px) rotate(0deg)}64.789%{transform:translate(326px,-8px) rotate(6deg)}69.014%{transform:translate(380px,-12px) rotate(-8deg)}73.239%{transform:translate(300px,-5px) rotate(8deg)}77.465%{transform:translate(220px,-12px) rotate(-6deg)}81.69%{transform:translate(140px,-6px) rotate(8deg)}85.915%{transform:translate(60px,-12px) rotate(-8deg)}90.141%{transform:translate(10px,-5px) rotate(6deg)}94.366%{transform:translate(80px,-11px) rotate(-6deg)}100%{transform:translate(160px,-7px) rotate(6deg)}}
 @keyframes bfly-bob{from{transform:translateY(-2.2px)}to{transform:translateY(2.2px)}}
 @keyframes flap{from{transform:scaleX(1)}to{transform:scaleX(.2)}}
 .col{animation:col-in .6s ${SNAP} backwards}
