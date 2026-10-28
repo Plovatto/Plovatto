@@ -16,8 +16,7 @@
 
 <a href="https://plovatto.github.io/portfolio/"><img src="assets/portfolio.svg" width="684" alt="Portfólio de Pandora Lovatto: projetos, stack e trajetória em uma placa de circuito interativa" /></a>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/icons-dark.svg" /><img src="assets/icons-light.svg" width="684" alt="Tecnologias: Figma, Git, HTML5, JavaScript, Node.js, React, MySQL, CSS3, Vuetify, TypeScript, Bootstrap, Express" /></picture>
-
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/icons-dark.svg" /><img src="assets/icons-light.svg" width="684" alt="Tecnologias: Figma, Git, HTML5, JavaScript, Node.js, React, MySQL, CSS3, Vuetify, TypeScript, Bootstrap, Express, com um gatinho que espia de trás do gráfico e tenta pegar os ícones" /></picture><br />
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Plovatto/Plovatto/output/panda-dark.svg" /><img src="https://raw.githubusercontent.com/Plovatto/Plovatto/output/panda.svg" width="684" alt="Panda correndo pelo gráfico de contribuições e comendo os commits" /></picture>
 
 </div>
