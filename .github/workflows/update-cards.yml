@@ -1,0 +1,38 @@
+name: Atualizar card de linguagens
+
+on:
+  schedule:
+    - cron: "0 3 * * *" # todo dia às 00h (Brasília)
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Card de linguagens (tema escuro)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=Plovatto&locale=pt-br&layout=compact&card_width=320&langs_count=6&theme=radical&hide_border=true&border_radius=10
+          path: profile/top-langs-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Card de linguagens (tema claro)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=Plovatto&locale=pt-br&layout=compact&card_width=320&langs_count=6&hide_border=true&border_radius=10&bg_color=f6f8fa&title_color=fe428e&text_color=1f2328
+          path: profile/top-langs-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit dos cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m ":bento: chore: update top languages card" || exit 0
+          git push
